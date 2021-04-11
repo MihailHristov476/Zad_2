@@ -1,0 +1,19 @@
+﻿<Window x:Class="Zad_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zad_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="textBoxMass" HorizontalAlignment="Left" Height="30" Margin="204,139,0,0" TextWrapping="Wrap" Text="Вводи свой массив" VerticalAlignment="Top" Width="360" />
+        <Button Content="1" HorizontalAlignment="Left" Margin="276,221,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="276,269,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click_1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,221,0,0" TextWrapping="Wrap" Text="Сумма эл-тов с нечетными индексами" VerticalAlignment="Top" Width="224"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,269,0,0" TextWrapping="Wrap" Text="Число эл массива &gt; А и кратных 5" VerticalAlignment="Top" Width="224"/>
+        <TextBox x:Name="textBoxTotal" HorizontalAlignment="Left" Height="30" Margin="57,358,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="360"/>
+        <TextBox x:Name="textBoxA" HorizontalAlignment="Left" Height="23" Margin="380,269,0,0" TextWrapping="Wrap" Text="Пиши число А" VerticalAlignment="Top" Width="224"/>
+
+    </Grid>
+</Window>
